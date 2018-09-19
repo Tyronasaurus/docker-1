@@ -1,0 +1,7 @@
+apt-get update
+apt-get install gcc
+apt-get install git
+git clone https://github.com/Tyronasaurus/docker_testing.git docker_test
+git add . 
+git commit -m "Pushing updated gcc to repo"
+git push
